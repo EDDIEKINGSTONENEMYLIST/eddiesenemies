@@ -1,6 +1,7 @@
 import bg from './ekbg.jpg';
 import data from './eddieklist.json'
 import Table from './Table';
+import GitHubForkRibbon from 'react-github-fork-ribbon';
 import './App.css';
 
 function App() {
@@ -15,6 +16,11 @@ function App() {
         height: '100vh',
         
     }}>
+        <GitHubForkRibbon href="//github.com/nzgamer41/eddiesenemies"
+                    target="_blank"
+                    position="right">
+                    Fork me on GitHub
+        </GitHubForkRibbon>
         <p>
           Eddie Kingston's Enemies and Friends:
         </p>
